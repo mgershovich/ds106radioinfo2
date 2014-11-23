@@ -1,15 +1,23 @@
-markdown: kramdown
-highlighter: pygments
-relative_permalinks: false
-permalink: /news/:year/:month/:day/:title/
-excerpt_separator: ""
+title : DS106 Radio
 
-title: Site
 safe: true
 lsi: false
 pygments: true
 auto: true
+
+source: api-design
+destination: api-design
+
 permalink: /:categories/:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
 paginate: 10
 paginate_path: "/blog/page:num"
+
+production_url : http://mgershovich.github.io/ds106radioinfo2/
+
+BASE_PATH : http://mgershovich.github.io/ds106radioinfo2/
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
