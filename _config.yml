@@ -3,3 +3,21 @@ highlighter: pygments
 relative_permalinks: false
 permalink: /news/:year/:month/:day/:title/
 excerpt_separator: ""
+
+title :Site
+
+safe: true
+
+lsi: false
+
+pygments: true
+
+auto: true
+
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 10
+
+paginate_path: "/blog/page:num"
